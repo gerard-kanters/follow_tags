@@ -16,4 +16,4 @@ if (!follow_tags_save_follow_tags($follow_tag_input, follow_tags_get_tag_guid(el
 	system_message(elgg_echo("follow_tags:save:message"));
 }
 
-forward(REFERER);
+forward("/activity/tags");
